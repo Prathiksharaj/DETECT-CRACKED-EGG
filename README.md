@@ -44,26 +44,8 @@ Loads an image, preprocesses it, and predicts whether the egg belongs to a Chick
 
 Outputs the classification results along with the original images.
 
-📂 Project Structure
-
-├── backend/
-│   ├── app.py                  # Flask application
-│   ├── detection.py            # Cracked egg detection logic (OpenCV)
-│   ├── templates/
-│   │   ├── upload.html         # Upload page for egg detection
-│   │   ├── results.html        # Results page for detected cracked eggs
-│   │   ├── upload_predict.html # Upload page for classification
-│   │   ├── predictions.html    # Results page for classification
-│   ├── uploads/                # Uploaded images
-│   ├── results/                # Processed images with bounding boxes
-│   ├── classification_results/ # Classified images (Chicken/Duck)
-├── my_model.keras              # Pre-trained Keras model
-├── README.md                   # Project documentation
-└── requirements.txt            # Python dependencies
 
 ⚙️ Setup & Installation
-
-
 
 1 Install Dependencies
 
